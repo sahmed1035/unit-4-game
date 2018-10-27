@@ -7,13 +7,127 @@
     <!-- jQuery Link -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    
+   
   </head>
   <body>
 
-    <h1 id="title">CrystalsCollector!</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- <img id="sapphire"  src="./assets/images/Sapphire-blue-gem-1.png" alt="Sapphire"> -->
+            <h1 id="title">Crystals Collector!</h1>
+          
+        </div>
+      </div>
+
+      <div id = "game-rules" class="row">
+        <div class="col-md-12">
+          <ul>
+            <li class="list-item">
+              You will be given a random number at the start of the game.
+            </li>
+            <li class="list-item">
+              There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+            </li>
+            <li class="list-item">
+              You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+            </li>
+            <li class="list-item">
+              The value of each crystal is hidden from you until you click on it.
+            </li>
+            <li class="list-item">
+              Each time when the game starts, the game will change the values of each crystal
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+            <div>
+                <!-- Crystals -->
+                <div id="crystal-area">
+                 <img id="sapphire"  src="./assets/images/Sapphire-blue-gem-1.png" alt="Sapphire">
+                 <img id="emerald"  src="./assets/images/emerald-green-gem-1.png" alt="emerald">
+                 <img id="amethyst"  src="./assets/images/amethyst-purple-gem-1.png" alt="amethyst">
+                 <img id="ruby"  src="./assets/images/ruby-red-gem-1.png" alt="ruby"> 
+                </div>
+              </div>
+
+        </div>
+      </div>
+<!---------------------------- First card ----------------------------------->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <h5 class="card-header">
+              Number to Match!
+            </h5>
+            <div class="card-body">
+              <p class="card-text">
+                 <!-- Random Number Display -->
+                <div id="random-area"></div>
+              </p>
+            </div>
+            <div class="card-footer">
+             
+            </div>
+          </div>
+        </div>
+
+
+<!---------------------------- Second card ----------------------------------->
+        <div class="col-md-4">
+          <div class="card">
+            <h5 class="card-header">
+                Your total so far!
+            </h5>
+            <div class="card-body">
+              <p class="card-text">
+                <!-- Random Number Display -->
+                <div id="score-area"></div>
+              </p>
+            </div>
+            <div class="card-footer">
+             
+            </div>
+          </div>
+        </div>
+
+<!---------------------------- Third card ----------------------------------->
+        <div class="col-md-4">
+          <div class="card">
+            <h5 class="card-header">
+                 Wins and Losses!
+            </h5>
+            <div class="card-body">
+              <p class="card-text">
+                <!-- Wins/Losses Display -->
+                <div id="win-area"></div> 
+              </p>
+            </div>
+            <div class="card-footer">
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <h1 id="title">CrystalsCollector!</h1>
 
     <div id="rules-area">
       <h4>You will be given a random number at the start of the game.</h4>
@@ -21,36 +135,33 @@
       <h4>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h4>
       <h4>The value of each crystal is hidden from you until you click on it.</h4>
       <h4>Each time when the game starts, the game will change the values of each crystal</h4>
-    </div>
+    </div> -->
 
-
-   
-   <div>
+<!-- <div> -->
      <!-- Crystals -->
-     <div id="crystal-area">
+     <!-- <div id="crystal-area">
       <img id="sapphire"  src="./assets/images/Sapphire-blue-gem-1.png" alt="Sapphire">
       <img id="emerald"  src="./assets/images/emerald-green-gem-1.png" alt="emerald">
       <img id="amethyst"  src="./assets/images/amethyst-purple-gem-1.png" alt="amethyst">
       <img id="ruby"  src="./assets/images/ruby-red-gem-1.png" alt="ruby"> 
      </div>
    </div>
+ </div> -->
 
 
-
-  </div>
-  <div id="score-title">Your total score is:</div>
+  <!-- <div id="score-title">Your total score is:</div> -->
   <!-- Score Display -->
-  <div id="score-area"></div>
-</div>
+  <!-- <div id="score-area"></div>
+</div> -->
 
 
 
-   <div id="screen"> 
+   <!-- <div id="screen">  -->
       <!-- Random Number Display -->
-     <div id="random-area"></div> 
+     <!-- <div id="random-area"></div>  -->
       <!-- Wins/Losses Display -->
-     <div id="win-area"></div> 
-     </div>
+     <!-- <div id="win-area"></div> 
+     </div> -->
 
     
 
