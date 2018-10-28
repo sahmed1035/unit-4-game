@@ -41,7 +41,7 @@ function resetGame()
 
    //Total user  is zero
    userTotalScore = 0; 
-   playGame();
+
    $("#random-area").html(computerNumPick);
    $("#score-area").html("");
    
